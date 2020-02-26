@@ -1,0 +1,29 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 100,
+        "width": 100
+    },
+    "display": "Extenso.js",
+    "fields": {
+        "AAG": {
+            "caption": "Número a converter",
+            "editor": "DynamicValue",
+            "name": "numero_converter",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "icon": "ion-code-working",
+    "states": {
+        "AAF": {
+            "caption": "Valor Monetário",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n    \n\n}"
+            },
+            "name": "valormonetario",
+            "value": "text"
+        }
+    }
+}
