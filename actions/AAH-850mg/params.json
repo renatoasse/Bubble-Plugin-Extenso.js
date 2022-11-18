@@ -1,0 +1,17 @@
+{
+    "category": "plugins",
+    "display": "Número por Extenso (pt-br)",
+    "fields": {
+        "AAI": {
+            "caption": "Número a Converter",
+            "default_val": 42,
+            "doc": "Aqui pode ser um número normal, estilo americano, com ponto como separador decimal. Ex.: 42.12",
+            "editor": "DynamicValue",
+            "name": "num_input",
+            "rank": 0,
+            "value": "number"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

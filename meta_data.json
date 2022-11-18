@@ -3,10 +3,11 @@
         "0": "productivity",
         "1": "technical"
     },
-    "description": "Biblioteca para escrever números por extenso.\n\nhttps://github.com/theuves/extenso.js",
+    "description": "Biblioteca para escrever números por extenso.\nhttps://github.com/theuves/extenso.js\n\nConverta um número em valor monetário por extenso.\nEx: 42,00 irá virar \"quarenta e dois reais\"\nEx: 42,20 irá virar \"quarenta e dois reais e vinte centavos\"\n\nATENÇÃO: Não basta informar um número, pois ele não irá ler os centavos. O Bubble envia o decimal com \".\" (ponto), mas o plugin só lê a \",\" (vírgula).\nPortanto, informe o número formatado com a vírgula no decimal, e sem o separador de milhares.\nSe for puxar o valor de um Input, por exemplo, puxe assim:\n\"Input A's value:formatted as 1.028,58\"\n\nPARA USAR:\nBasta inserir o elemento \"Extenso.js\" ao aplicativo, informar qual o valor a ser convertido, e puxar o \"Valor Monetário\" do elemento.\n\n",
     "image": "//s3.amazonaws.com/appforest_uf/f1582745998250x956596812097109400/logo-extenso.png",
     "license": "open_source",
     "link": "https://github.com/theuves/extenso.js",
-    "name": "Extenso.js",
-    "plugin_instructions": "Converta um número em valor monetário por extenso.\nEx: 42,00 irá virar \"quarenta e dois reais\"\nEx: 42,20 irá virar \"quarenta e dois reais e vinte centavos\"\n\nATENÇÃO: Não basta informar um número, pois ele não irá ler os centavos. O Bubble envia o decimal com \".\" (ponto), mas o plugin só lê a \",\" (vírgula).\nPortanto, informe o número formatado com a vírgula no decimal, e sem o separador de milhares.\n\nPARA USAR:\nBasta inserir o elemento \"Extenso.js\" ao aplicativo, informar qual o valor a ser convertido, e puxar o \"Valor Monetário\" do elemento."
+    "name": "Extenso.js - Números por extenso",
+    "plugin_instructions": "Biblioteca para escrever números por extenso.\nhttps://github.com/theuves/extenso.js\n\nConverta um número em valor monetário por extenso.\nEx: 42,00 irá virar \"quarenta e dois reais\"\nEx: 42,20 irá virar \"quarenta e dois reais e vinte centavos\"\n\nATENÇÃO: Não basta informar um número, pois ele não irá ler os centavos. O Bubble envia o decimal com \".\" (ponto), mas o plugin só lê a \",\" (vírgula).\nPortanto, informe o número formatado com a vírgula no decimal, e sem o separador de milhares.\nSe for puxar o valor de um Input, por exemplo, puxe assim:\n\"Input A's value:formatted as 1.028,58\"\n\nPARA USAR:\nBasta inserir o elemento \"Extenso.js\" ao aplicativo, informar qual o valor a ser convertido, e puxar o \"Valor Monetário\" do elemento.\n\n",
+    "sa_node_version": 14
 }
