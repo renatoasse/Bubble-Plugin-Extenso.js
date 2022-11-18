@@ -1,15 +1,23 @@
 {
     "category": "plugins",
-    "display": "Número por Extenso (pt-br)",
+    "display": "Extenso.js",
     "fields": {
         "AAI": {
             "caption": "Número a Converter",
             "default_val": 42,
-            "doc": "Aqui pode ser um número normal, estilo americano, com ponto como separador decimal. Ex.: 42.12",
+            "doc": "O número a ser convertido para texto, com valor por extenso, em reais.",
             "editor": "DynamicValue",
             "name": "num_input",
             "rank": 0,
             "value": "number"
+        }
+    },
+    "return_value": {
+        "AAJ": {
+            "caption": "extenso_number",
+            "name": "extenso_number",
+            "rank": 0,
+            "value": "text"
         }
     },
     "type": "server_side",
