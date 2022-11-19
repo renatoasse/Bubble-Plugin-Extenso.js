@@ -7,7 +7,7 @@
     "image": "//s3.amazonaws.com/appforest_uf/f1582745998250x956596812097109400/logo-extenso.png",
     "license": "open_source",
     "link": "https://github.com/theuves/extenso.js",
-    "name": "Extenso.js - Números por extenso",
+    "name": "Extenso.js",
     "plugin_instructions": "Biblioteca para escrever números por extenso.\nhttps://github.com/theuves/extenso.js\n\nConverta um número em valor monetário por extenso.\nEx: 42,00 irá virar \"quarenta e dois reais\"\nEx: 42,20 irá virar \"quarenta e dois reais e vinte centavos\"\n\n\nPARA USAR:\nBasta inserir o elemento \"Extenso.js\" ao aplicativo, informar qual o valor a ser convertido, e puxar o \"Valor Monetário\" do elemento.\nOu então use a ação \"Extenso.js\".\n\nReferências:\nhttps://github.com/theuves/extenso.js\nhttps://www.npmjs.com/package/extenso",
     "sa_node_version": 14
 }

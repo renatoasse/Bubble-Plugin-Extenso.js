@@ -1,7 +1,7 @@
 function(instance, properties, context) {
     
-   let numBr = properties.numero_converter.toString().split('.')[0] + ',' + properties.numero_converter.toString().split('.')[1]
+   var numBr = properties.numero_converter.toString().replace('.',',');
    var extensoMonetario = extenso(numBr, { mode: 'currency'});
-   instance.publishState('valormonetario', extensoMonetario)
+   instance.publishState('valormonetario', extensoMonetario);
 
 }
