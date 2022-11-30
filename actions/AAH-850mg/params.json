@@ -1,0 +1,25 @@
+{
+    "category": "plugins",
+    "display": "Número por Extenso",
+    "fields": {
+        "AAI": {
+            "caption": "Número a converter",
+            "default_val": 12345.67,
+            "doc": "Insira o número que você quer converter para um texto por extenso.",
+            "editor": "DynamicValue",
+            "name": "num_input",
+            "rank": 0,
+            "value": "number"
+        }
+    },
+    "return_value": {
+        "AAJ": {
+            "caption": "Número por extenso",
+            "name": "extenso_number",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

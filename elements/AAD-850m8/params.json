@@ -5,17 +5,22 @@
         "height": 100,
         "width": 100
     },
-    "display": "Extenso.js",
+    "display": "Extenso",
     "fields": {
         "AAG": {
             "caption": "Número a converter",
+            "default_val": 12345.67,
+            "doc": "Insira o número que você quer converter para um texto por extenso.",
             "editor": "DynamicValue",
             "name": "numero_converter",
             "rank": 0,
-            "value": "text"
+            "value": "number"
         }
     },
     "icon": "ion-code-working",
+    "property_applications": {
+        "resizable": true
+    },
     "states": {
         "AAF": {
             "caption": "Valor Monetário",
