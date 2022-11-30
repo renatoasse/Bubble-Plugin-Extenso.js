@@ -9,12 +9,10 @@
     "fields": {
         "AAG": {
             "caption": "Número a converter",
-            "default_val": 42,
-            "doc": "",
             "editor": "DynamicValue",
             "name": "numero_converter",
             "rank": 0,
-            "value": "number"
+            "value": "text"
         }
     },
     "icon": "ion-code-working",
